@@ -27,7 +27,7 @@
 
 ## Implementation
 
-hard this is very hard
+First demo using Vue.js completing a toDoList MVC, using toDOMVC template from tastejs
 
 
 ## Credit

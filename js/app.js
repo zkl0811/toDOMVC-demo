@@ -78,7 +78,7 @@
 			}
 		},
 		methods: {
-			//add task to list
+			//add task to list from input
 			addItem: function (e) {
 				const content = e.target.value.trim();
 				if (!content.length) {
