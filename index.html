@@ -17,6 +17,7 @@
 			<h1 v-text="msg">todos</h1>
 			<input class="new-todo" placeholder="What needs to be done?"  v-app-focus @keyup.enter="addItem">
 		</header>
+		<!-- use <template in order to not interfere with the original css structure> -->
 		<template v-if="items.length">
 			<!-- This section should be hidden by default and shown when there are todos -->
 			<section class="main">
