@@ -32,7 +32,7 @@
 							<label @dblclick="editItem(item)">{{ item.content }}</label>
 							<button class="destroy" :value="item.id" @click="removeItem(index)"></button>
 						</div>
-						<input v-app-focus="item === currentItem" @keyup.esc="cancelEdit" @keyup.enter="finishEdit(item, index, $event)" @blur="finishEdit(item, index, $event)" class="edit" :value="item.content">
+						<input v-app-focus="item === currentItem" @keyup.esc="cancelEdit()" @keyup.enter="finishEdit(item, index, $event)" @blur="finishEdit(item, index, $event)" class="edit" :value="item.content">
 					</li>
 				</ul>
 			</section>
